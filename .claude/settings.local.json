@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-tree -r HEAD --name-only)",
+      "Bash(git restore --staged .)",
+      "Bash(git restore .)",
+      "Bash(git ls-tree -r origin/master --name-only)",
+      "Bash(git add website/index.html website/styles.css)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: 조합원 출자금 및 연회비 안내 섹션 추가\n\n- 개인, 소상공인, 기업/단체 조합원 유형별 출자금 정보 표시\n- 연회비 정보 추가\n- 출자금 환급 및 1인 1표 원칙 안내\n- 모던한 카드 디자인으로 정보 시각화\n- 호버 효과 및 애니메이션 적용\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git add website/index.html website/styles.css website/20240715.pdf website/proposal.pdf)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: 관련 자료 다운로드 섹션 추가\n\n- 용인시 데이터기반행정 활성화 조례 PDF 다운로드 기능\n- 용인 시민 데이터 허브 사업계획서 PDF 다운로드 기능\n- 모던한 문서 카드 디자인\n- 파일 메타정보 표시 (제정일, 파일 크기)\n- 호버 효과 및 다운로드 버튼 애니메이션\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
